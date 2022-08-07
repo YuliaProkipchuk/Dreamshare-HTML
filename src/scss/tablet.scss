@@ -1,0 +1,290 @@
+// @import 'base/base';
+@import 'dekstop.scss';
+@media screen and (max-width:950px){
+    body, header, main, footer{
+        width: 768px;
+    }
+    body{
+        margin: 0 auto;
+    }
+    header{
+        background-image: url("@img/Background_tablet.png");
+    }
+    .navbar{
+        width: 670px;
+        &__menu{
+            width: 171px;
+        }
+        &__border-link{
+            height: 35px;
+            border-radius: 22px;
+            margin-left: 3px;
+        }
+        &__sign_in-link{
+            line-height: 23px;
+        }
+    }
+    .heading{
+        &__text{
+            margin-top: -6px;
+        }
+    }
+    .main-header{
+        font-size: 22px;
+        line-height: 27px;
+        padding-top: 94px;
+    }
+    .dreamshare-container{
+        width: 748px;
+        height: 473px;
+        margin-top: -1px;
+        &__step-1, &__step-2, &__step-3{
+            width: 236px;
+            height: 400px;
+        }
+        &__step-1{
+            background-image: url("@img/Step\ 1\ image_tablet.png");
+           
+        }
+        &__step-2{
+            background-image: url("@img/Step\ 1\ image\ \(1\)_tablet.png");
+        }
+        &__step-3{
+            background-image: url("@img/Step\ 1\ image\ \(2\)_tablet.png");
+        }
+        &__box-s1, &__box-s3{
+            width: 196px;
+        }
+        &__box-s2, &__text-s1,  &__text-s2,  &__text-s3{
+            width: 196px;
+        }
+        &__step1{
+             margin-left: -5px;
+            margin-bottom: 44px;
+        }
+        &__step2{
+            margin-bottom: 15px;
+            margin-left: -5px
+        }
+        &__step3{
+            margin-left: -6px;
+            margin-bottom: 25px;
+        }
+        &__header-s1{
+            line-height: 14px;
+            margin-left: -5px;
+            margin-bottom: -1px;
+        }
+        &__text-s1{
+            margin-left: -5px;
+            margin-bottom: -6px;
+        }
+        &__s2-box-text{
+            margin-left: -3px;
+        }
+        &__header-s2{
+            margin-left: -6px;
+            margin-bottom: 8px;
+            line-height: 14px;
+            width: 199px;
+        }
+        &__text-s2{
+            margin-bottom: -7px;
+            margin-left: -5px;
+        }
+        &__step3{
+            margin-bottom: 45px;
+        }
+        &__header-s3{
+            line-height: 14px;
+            margin-bottom: -2px;
+            margin-left: -5px;
+        }
+        &__text-s3{
+            margin-bottom: -6px;
+            margin-left: -6px;
+        }
+        
+    }
+    .main-header-2{
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 4px;
+        margin-bottom: 12px;
+    }
+    .people-info{
+        flex-direction: column;
+        height: 507px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 507px;
+        &__music{
+            margin-left: -2px;
+        }
+        &__music-name{
+            margin-bottom: 6px;
+        }
+        &__music-text{
+            margin-left: -2px;
+            width: 236px;
+        }
+        &__pencil-photo{
+            margin-top: 5px;
+            margin-left: -3px;
+        }
+        &__pencil-name{
+            margin-left: -2px;
+            margin-top: -8px;
+        }
+        &__pencil-text{
+            margin-bottom: -6px;
+        }
+        &__photo-text{
+            height: 24px;
+            margin-left: -13px;
+        }
+        &__photo-photo{
+            margin-left: 1px;
+        }
+        &__photo-name{
+            margin-top: -5px;
+            margin-left: 2px;
+        }
+        &__airplane-photo{
+            margin-top: 5px;
+            margin-left: 2px;
+        }
+        &__airplane-text{
+            margin-left: 2px;
+            width: 236px;
+        }
+        
+    }
+    .section-2{
+        height: 701px;
+        margin-top: 5px;
+    }
+    .section2-button-text{
+        margin-left: 6px;
+        margin-top: -2px;
+    }
+    .main-header-3{
+        line-height: 27px;
+        font-size: 22px;
+    }
+    .section-3{
+        height: 1100px;
+    }
+    .holidays{
+        width: 748px;
+        margin-top: 24px;
+        &__activis, &__health, &__extreme, &__games, &__travelling{
+            width: 236px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__culture, &__enjoyment{
+            width: 492px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__activis{
+            background-image: url("@img/Sport\ \(1\)tablet.png");
+        }
+        &__health{
+            background-image: url("@img/Healathtablet.png");
+        }
+        &__extreme{
+            background-image: url("@img/Extremetablet.png");
+        }
+        &__games{
+            background-image: url("@img/Gamestablet.png");
+        }
+        &__culture{
+            background-image: url("@img/Culturetablet.png");
+        }
+        &__enjoyment{
+            background-image: url("@img/Culture\ Copytablet.png");
+        }
+        &__travelling{
+            background-image: url("@img/Games\ Copytablet.png");
+        }
+        &__activis-text{
+            width: 206px;
+            text-align: center;
+            margin-top: -22px;
+        }
+        &__health-text{
+            width: 206px;
+            text-align: center;
+            margin-left: -1px;
+            margin-top: 3px;
+        }
+        &__extreme-text, &__games-text{
+            margin-top: 2px;
+        }
+        &__culture-text{
+            margin-top: 1px;
+        }
+    }
+    .main-header-4{
+        font-size: 22px;
+        line-height: 27px;
+        padding-top: 26px;
+        margin-left: 2px;
+    }
+    .input-text{
+        margin-left: 2px;
+        margin-top: 53px;
+       
+    }
+    .input-field{
+        margin-top: -2px;
+        &__search-button{
+            margin-right: 1px;
+        }
+        &__search-button-text{
+            padding-left: 4px; 
+        }
+    }
+    .section-4{
+        height: 284px;
+    }
+    .red-line{
+        width: 768px;
+    }
+    .footer-container{
+        width: 696px;
+        height: 186px;
+        padding-left: 3px;
+        &__menu{
+            width: 461px;
+            margin-top: 74px;
+        }
+        &__company{
+            padding-left: 58px;
+        }
+        &__partners{
+            padding-right: 2px;
+        }
+        &__company-elem{
+            margin-left: -2px;
+        }
+        &__logo-bitmap{
+            margin-top: -61px;
+        }
+        &__bitmap{
+            margin-left: -5px;
+        }
+    }
+    input[type=text]{
+        padding-top: 8px;
+    }
+    input[type=text]::placeholder{
+        padding-left: 12px;
+    }
+}

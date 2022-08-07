@@ -1,0 +1,357 @@
+@import 'tablet.scss'; 
+@media screen and (max-width: 696px) {
+    body, header, main, footer{
+        width: 320px;
+    }
+    body{
+        margin: 0 auto;
+    }
+    header{
+        background-image: url("@img/Background-mobile.png");
+        background-repeat: no-repeat;
+        height: 540px;
+        margin-left: 9px;
+    }
+    .navbar{
+        flex-direction: column-reverse;
+        width: 189px;
+        padding-top: 20px;
+        height: 157px;
+        margin-top: 0px;
+        box-sizing: border-box;
+        margin-bottom: 47px;
+        &__logo{
+            margin-bottom: -20px;
+            margin-left: 6px;
+        }
+        &__menu{
+            margin-top: 0;
+            width: 189px;
+        }
+        &__log_in-link{
+            font-size: 14px;
+            line-height: 17px;
+            margin-left: 9px;
+            margin-right: 7px;
+        }
+        &__border-link{
+            height: 36px;
+            border-radius: 40px;
+            text-align: center;
+            padding-left: 0px;
+            margin-left: 12px;
+            
+        }
+        &__sign_in-link{
+            line-height: 23px;
+            margin: 0px;
+        }
+    }
+    .heading{
+        width: 280px;
+        height: 183px;
+        justify-content: space-between;
+        margin-left: 21px;
+        &__h1{
+            width: 272px;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            margin-bottom: -8px;
+        }
+        &__text{
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: -2px;
+            text-align: center;
+        }
+        &__button{
+            width: 280px;
+            margin-bottom: 0px;
+        }
+        &__button-text{
+            margin-left: 2px;
+        }
+    }
+    .main-header{
+        padding-top: 34px;
+    }
+    .section-1{
+        height: 849px;
+    }
+    .dreamshare-container{
+        width: 300px;
+        height: 752px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 9px;
+        &__step-1, &__step-2, &__step-3{
+            width: 300px;
+            height: 240px;
+        }
+        &__step-1{
+            background-image: url("@img/Step\ 1\ image_mobile.png");
+        }
+        &__step-2{
+            background-image: url("@img/Step\ 1\ image\ \(1\)_mobile.png");
+        }
+        &__step-3{
+            background-image: url("@img/Step\ 1\ image\ \(2\)_mobile.png");
+        }
+        &__box-s1{
+            width: 253px;
+        }
+        &__header-s1{
+            height: 54px;
+        }
+        &__text-s1{
+            width: 253px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        &__box-s2{
+            width: 253px;
+            height: 91%;
+        }
+        &__step2{
+            margin-bottom: 29px;
+        }
+        &__header-s2{
+            height: 31px;
+            width: 253px;
+            margin-bottom: 7px;
+        }
+        &__text-s2{
+            width: 253px;
+            margin-bottom: -6px;
+            margin-left: -6px;
+        }
+        &__box-s3{
+            width: 253px;
+        }
+        &__step3{
+            margin-bottom: 46px;
+        }
+        &__header-s3{
+            margin-bottom: -7px;
+        }
+        &__text-s3{
+            width: 253px;
+            margin-bottom: 3px;
+        }
+    }
+    .section-2{
+        height: 1067px;
+        margin: 0 auto;
+        width: 280px;
+    }
+    .people-info{
+        width: 280px;
+        height: 895px;
+        justify-content: space-between;
+        &__music{
+            margin-left: 0px;
+            width: 236px;
+        }
+        &__music-photo{
+            margin-bottom: 2px;
+        }
+        &__music-text{
+            margin-bottom: -2px;
+        }
+        &__pencil{
+            order: 3;
+            width: 236px;
+            margin-top: -7px;
+        }
+        &__pencil-photo{
+            margin-top: 1px;
+        }
+        &__pencil-name{
+            margin-left: 6px;
+            margin-top: -5px;
+        }
+        &__pencil-text{
+            margin-bottom: -1px;
+        }
+        &__photo{
+            order: 2;
+            height: 239px;
+        }
+        &__photo-photo{
+            margin-top: 6px;
+        }
+        &__photo-name{
+            margin-top: -5px;
+            margin-left: -1px;
+        }
+        &__photo-text{
+            height: 47px;
+             margin-bottom: 4px;
+        }
+        &__airplane{
+            order: 4;
+            width: 236px;
+            margin-bottom: 11px;
+        }
+        &__airplane-text{
+            margin-left: -1px;
+        }
+        &__pencil-name{
+            margin-left: 0;
+        }
+    }
+    .partners-button{
+        width: 280px;
+        margin-top: 30px;
+    }
+    .section2-button-text{
+        margin-top: -1px;
+    }
+    .main-header-3{
+        text-align: center;
+        width: 280px;
+        margin-left: 20px;
+        margin-top: -2px;
+    }
+    .holidays{
+        width: 300px;
+        height: 921px;
+        &__activis, &__health, &__extreme, &__games, &__travelling, &__culture, &__enjoyment {
+            width: 300px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        &__activis{
+            background-image: url("@img/Sport\ \(1\)mobile.png");
+            margin-bottom: 2px;
+            margin-top: 5px;
+        }
+        &__activis-text{
+            margin-top: -26px;
+        }
+        &__health{
+            background-image: url("@img/Healathmobile.png");
+            margin-bottom: 4px;
+            margin-top: 1px;
+        }
+        &__health-text{
+            margin-top: 0;
+        }
+        &__extreme{
+            background-image: url("@img/Extrememobile.png");
+            margin-bottom: 2px;
+            margin-top: 0px;
+        }
+        &__games{
+            background-image: url("@img/Gamesmobile.png");
+            margin-bottom: 3px;
+            margin-top: 1px;
+        }
+        &__culture{
+            background-image: url("@img/Culturemobile.png");
+            margin-bottom: 14px;
+        }
+        &__enjoyment{
+            background-image: url("@img/Culture\ Copymobile.png");
+            margin-bottom: 2px;
+            margin-top: -10px;
+        }
+        &__travelling{
+            background-image: url("@img/Games\ Copymobile.png");
+            margin-bottom: 10px;
+        }
+    }
+    .section-3{
+        height: 996px;
+    }
+    .section-4{
+        height: 258px;
+    }
+    .input-text{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .input-field{
+        flex-wrap: wrap;
+        width: 280px;
+        margin-top: -1px;
+        &__search-button{
+            width: 280px;
+        }
+        &__search-button-text{
+            padding-left: 11px;
+            padding-top: 1px;
+        }
+    }
+    input[type=text]{
+        margin-bottom: 10px;
+        padding-top: 8px;
+    }
+    .main-header-4{
+        width: 300px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .red-line{
+        width: 320px;
+    }
+    .footer-container{
+        width: 231px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        &__menu{
+            width: 320px;
+            height: 204px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        &__logo{
+            margin: 0 auto;
+            margin-left: 54px;
+            margin-top: 20px;
+        }
+        &__company{
+            width: 241px;
+            margin-top: -35px;
+            height: 91px;
+            padding-top: 3px;
+            margin-bottom: -26px;
+        }
+        &__company-header{
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-bottom: -10px;
+        }
+        &__company-elem{
+            margin-right: 12px;
+            display: inline-block;
+        }
+        &__company-elem--about{
+            margin-left: -39px;
+        }
+        &__partners{
+            margin: 0 auto;
+            padding-right: 16px;
+            margin-bottom: 28px;
+        }
+        &__logo-bitmap{
+            margin: 0 auto;
+            margin-top: -40px;
+        }
+        &__designed{
+            margin-left: 11px;
+            margin-top: -5px;
+        } 
+        &__company-elem:nth-child(6){
+        margin-left: -22px;
+        }
+    }
+    input[type=text]::placeholder{
+        padding-left: 12px;
+    }
+
+} 

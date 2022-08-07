@@ -1,0 +1,496 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+header{
+    width: 1440px;
+    height: 700px;
+    background-image: url("@img/Background.png");
+}
+.navbar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 117px;
+    margin-bottom: 90px;
+    &__logo{
+        color: white;
+        font-family: "Montserrat";
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: -3px;
+    }
+    &__log_in-link, &__sign_in-link{
+        color: white;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration: none;
+        margin: 0 16px;
+    }
+    &__sign_in-link{
+        line-height: 22px;
+    }
+    &__border-link{
+        height: 35px;
+        width: 91px;
+        border: 2px solid white;
+        border-radius: 19px;
+        padding-top: 5px;
+        margin-left: 4px;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        width: 209px;
+    }
+}
+.heading{
+    width: 100%;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    &__h1{
+        width: 470px;
+        color: white;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 63px;
+        text-align: center;
+    }
+    &__text{
+        font-size: 24px;
+        line-height: 24px;
+        color: #F7F3F2;
+        font-family:Roboto;
+        font-weight: 300;
+        margin-top: -5px;
+    }
+    &__button{
+        width: 225px;
+        height: 40px;
+        background: #FF4E50;
+        border-radius: 40px;
+    }
+    &__button-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 40px;
+        color: white;
+        text-align: center;
+    }
+}
+main{
+    width: 100%;
+
+}
+.section-1{
+    height: 645px;
+}
+.main-header, .main-header-2, .main-header-3, .main-header-4{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    padding-top: 89px;
+}
+.main-header-2, .main-header-3{
+    padding-top: 0;
+}
+.main-header-4{
+    padding-top: 80px;
+}
+.dreamshare-container{
+    width: 942px;
+    height: 468px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__step-1, &__step-2, &__step-3{
+        width: 300px;
+        height: 400px;
+    }
+    &__step-1{
+        background-image: url("@img/Step\ 1\ image.png");
+    }
+    &__step-2{
+        background-image: url("@img/Step\ 1\ image\ \(1\).png");
+    }
+    &__step-3{
+        background-image: url("@img/Step\ 1\ image\ \(2\).png");
+    }
+    &__box-s1,  &__box-s2,  &__box-s3{
+        height: 94%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-left: 26px;
+    }
+    &__step1, &__step2, &__step3{
+        width: 70px;
+        height: 20px;
+        background: #FF4E50;
+        border-radius: 40px;
+        margin-bottom: 21px;
+    }
+    &__step2{
+        margin-bottom:24px;
+    }
+    &__s1-box-text, &__s2-box-text, &__s3-box-text{
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    &__header-s1, &__header-s2, &__header-s3{
+        font-family: 'Montserrat';
+        height: 58px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 17px;
+    }
+    &__header-s2{
+       height: 43px;
+       margin-bottom: 0;
+    }
+    &__text-s1,  &__text-s2,  &__text-s3{
+        width: 250px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+        color: #E3E3E3;
+        margin-bottom: -4px;
+    }
+    &__text-s2{
+        margin-bottom: -4px;
+    }
+}
+.people-info{
+    width: 941px;
+    height: 273px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    &__music, &__pencil, &__photo, &__airplane{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 221px;
+        height: 205px;
+    }
+    &__music-name, &__pencil-name, &__photo-name, &__airplane-name{
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+    }
+    &__photo-name, &__airplane-name{
+        margin-bottom: 7px;
+    }
+    &__music-text, &__pencil-text, &__photo-text, &__airplane-text{
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+        color: #666666;
+        text-align: center;
+    }
+    &__photo-text{
+        height: 22px;
+        word-spacing: 1.3px;
+         padding-left: 7px;
+         letter-spacing: -0.4px;
+    }
+    &__airplane-text{
+        height: 22px;
+    }
+    &__music-photo{
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 88px;
+            top: 88px;
+            background-color: #FF4E50;
+            background-image: url("@img/music2.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+        }
+    }
+    &__pencil-photo, &__photo-photo{
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 88px;
+            top: 88px;
+            background-color: #19D4CA;
+            background-image: url("@img/brush.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+        }
+    }
+    &__photo-photo{
+        &::after{
+            background-color: #FFA710;
+            background-image: url("@img/camera.png");
+        }
+    }
+     &__airplane-photo{
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 88px;
+            top: 88px;
+            background-color: #667DF3;
+            background-image: url("@img/airplane.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+        }
+    }
+    
+}
+.partners-button{
+    width: 180px;
+    height: 40px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.section2-button-text{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FF4E50;
+    margin-left: 4px;
+}
+.section-2{
+    height: 457px;
+}
+.holidays{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 940px;
+    height: 992px;
+    margin: 0 auto;
+    margin-top: 23px;
+    &__activis, &__health, &__extreme, &__games, &__travelling{
+        width: 300px;
+        height: 310px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__culture, &__enjoyment{
+        width: 620px;
+        height: 310px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__activis{
+        background-image: url("@img/Sport\ \(1\).png");
+    }
+    &__health{
+        background-image: url("@img/Healath.png");
+    }
+    &__extreme{
+        background-image: url("@img/Extreme.png");
+    }
+    &__games{
+        background-image: url("@img/Games.png");
+    }
+    &__culture{
+        background-image: url("@img/Culture.png");
+    }
+    &__enjoyment{
+        background-image: url("@img/Culture\ Copy.png");
+    }
+    &__travelling{
+        background-image: url("@img/Games\ Copy.png");
+    }
+    &__activis-text, &__health-text, &__extreme-text, &__games-text, &__culture-text, &__enjoyment-text, &__travelling-text{
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    &__extreme-text{
+        text-align: center;
+        width: 187px;
+    }
+}
+.input-text{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #666666;
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 26px;
+    
+}
+.input-field{
+    width: 482px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    &__search-button{
+        width: 172.12px;
+        height: 40px;
+        background: #FF4E50;
+        border-radius: 40px;
+    }
+    &__search-button-text{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+}
+input[type=text]{
+    width: 299px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+}
+input[type=text]::placeholder{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    padding-left: 12px;
+    padding-top: 2px;
+    margin-top: 7px;
+}
+input[type=text]:focus::placeholder{
+    padding-left: 7px;
+}
+.red-line{
+    width: 100%;
+    height: 2px;
+    background: #FF4E50;
+}
+.section-4{
+    height: 342px;
+}
+footer{
+    height: 300px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 941px;
+    margin: 0 auto;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 544px;
+        height: 186px;
+        margin-top: 38px;
+    }
+    &__logo-bitmap{
+        margin-top: -100px; 
+    }
+    &__logo{
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF4E50;
+    }
+    &__designed{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        color: #CCCCCC;
+        margin: -3px 0 5px 26px;
+    }
+    &__company-header, &__partners{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+        margin-left: -2px;
+    }
+    &__partners{
+        margin-left: 3px;
+    }
+    &__company-elem{
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+    }
+    &__company-elem--about{
+        margin-top: 11px;
+    }
+}

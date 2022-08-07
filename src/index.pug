@@ -1,0 +1,83 @@
+doctype html
+html 
+    head 
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title Document
+        link(rel='stylesheet',href='css/style.css')
+    body 
+        include html/header
+        main 
+            section(class="section-1")
+                h2(class="main-header") How Dreamshare works?
+                div(class="dreamshare-container")
+                    div(class="dreamshare-container__step-1")
+                        div(class="dreamshare-container__box-s1")
+                            div(class="dreamshare-container__step1")
+                                p(class="dreamshare-container__s1-box-text") STEP 1
+                            p(class="dreamshare-container__header-s1") Sed leo enim, condimentum
+                            p(class="dreamshare-container__text-s1") Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+                    div(class="dreamshare-container__step-2")
+                        div(class="dreamshare-container__box-s2")
+                            div(class="dreamshare-container__step2")
+                                p(class="dreamshare-container__s2-box-text") STEP 2
+                            p(class="dreamshare-container__header-s2") Morbi velit risus
+                            p(class="dreamshare-container__text-s2") Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+                    div(class="dreamshare-container__step-3")
+                        div(class="dreamshare-container__box-s3")
+                            div(class="dreamshare-container__step3")
+                                p(class="dreamshare-container__s3-box-text") STEP 3
+                            p(class="dreamshare-container__header-s3") Sed leo enim, condimentum
+                            p(class="dreamshare-container__text-s3") Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.        
+            section(class="section-2") 
+                h2(class="main-header-2") Meet a partner for your best holiday
+                div(class="people-info")
+                    article(class="people-info__music")
+                        div(class="people-info__music-photo")
+                            img(src="@img/Photo.png", alt="")
+                        p(class="people-info__music-name") Bradley Hunter
+                        p(class="people-info__music-text") Based in Chicago. I love playing tennis and loud music.
+                    article(class="people-info__pencil")
+                        div(class="people-info__pencil-photo")
+                            img(src="@img/Photo (1).png", alt="")
+                        p(class="people-info__pencil-name") Marie Bennett
+                        p(class="people-info__pencil-text") Currently living in Colorado. Lover of art, languages and travelling.    
+                    article(class="people-info__photo")
+                        div(class="people-info__photo-photo")
+                            img(src="@img/Photo (2).png", alt="")
+                        p(class="people-info__photo-name") Diana Wells
+                        p(class="people-info__photo-text") Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+                    article(class="people-info__airplane")
+                        div(class="people-info__airplane-photo")
+                            img(src="@img/Photo (3).png", alt="")
+                        p(class="people-info__airplane-name") Christopher Pierce
+                        p(class="people-info__airplane-text") tar Wars fanatic. I have a persistent enthusiasm to create new things.
+                div(class="partners-button")
+                    p(class="section2-button-text") See other partners
+            section(class="section-3")
+                h2(class="main-header-3") Discover holiday activity ideas
+                article(class="holidays")
+                    div(class="holidays__activis")
+                        p(class="holidays__activis-text") Sports and Activis 
+                    div(class="holidays__health")
+                        p(class="holidays__health-text") Wellness and Health
+                    div(class="holidays__extreme")
+                        p(class="holidays__extreme-text") Extreme Sports and Expeditions
+                    div(class="holidays__games")
+                        p(class="holidays__games-text") Games
+                    div(class="holidays__culture")
+                        p(class="holidays__culture-text") Culture and Education
+                    div(class="holidays__enjoyment")
+                        p(class="holidays__enjoyment-text") Enjoiment and Relaxation
+                    div(class="holidays__travelling")
+                        p(class="holidays__travelling-text") Travelling
+            section(class="section-4")
+                h2(class="main-header-4") Create your holiday activity
+                p(class="input-text") Hi! What are your holiday interests?
+                div(class="input-field")
+                    input(type="text" placeholder="Enter your insterests")
+                    div(class="input-field__search-button")
+                        p(class="input-field__search-button-text") Search partners
+        //- img(src='@img/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg')
+        include html/footer 
+        script(src="js/app.min.js") 
